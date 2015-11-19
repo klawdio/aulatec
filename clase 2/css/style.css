@@ -1,0 +1,124 @@
+body{font-family:arial;
+
+}
+
+.header {
+          background:#303030;
+          height:95px;
+          
+        }
+.container{
+          width:820px;
+          margin:0 auto;
+           }
+.logo    {
+           color:white;
+           font-family:arial;
+           border-left:10px solid #B41717;
+           padding-left:10px;
+           float:left;
+           }
+           
+.logo span{
+          color:#676767;
+          font-weight:normal;
+           }
+.menu    {
+          padding-left:0px;
+          float:right;
+          margin-top:30px;
+          font-size:14px;
+         }
+          
+          
+.menu li {
+          float:left;
+          margin-right:20px;
+          font-weight:bold;
+          
+
+          }
+.menu a     {
+          color:#CCCCCC;
+          text-decoration:none;
+          text-transform:uppercase;
+          
+          
+          }
+.menu a:hover{
+                    color:#FFF;
+                    text-decoration:underline;
+              }
+h2,h3         {
+          font-weight:normal;
+              }
+
+
+
+       h3 {
+           text-transform:uppercase;
+            border-bottom:1px solid #ccc;
+ 
+           }
+    
+    .table {
+            border:1px solid #ccc;
+            border-collapse:collapse;
+            width:100%;
+           }
+    
+ .table th,
+ .table td {
+            border:1px solid #ccc;
+            padding:3px 10px;
+             
+             }
+ .table th {
+            text-align:left;
+            background:#EEEEEE;
+            }
+            
+     .box {
+            background:#C92828;
+            color:#fff;
+            border-radius:10px;
+            overflow:auto;
+            padding:20px;
+            margin-top:30px;
+          }
+.box .left{
+            float:left;
+            width:500px;
+            
+           }
+          
+.box .right{
+            float:left;
+            width:280px;
+            box-sizing:border-box;
+            border-left:1px solid #D96C84;
+            padding-left:10px;
+           }
+                 
+                 
+.box .right span {
+                     color:#E49691;
+                     
+                 }
+             
+.box .right p {
+               margin-top:0;
+}
+              
+.footer {
+    background:#303030;
+    height:70px;
+        }
+        
+.footer p {
+    color:#fff;
+    text-align:right;
+    padding-top:25px;
+}              
+              
+              
