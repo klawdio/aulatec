@@ -1,4 +1,7 @@
 /* -- Estilos CSS --*/
+body{background-image:url(http://previews.123rf.com/images/olgaaltunina/olgaaltunina1105/olgaaltunina110500035/9650472-Fondo-blanco-y-azul-de-matem-ticas-abstractas-Foto-de-archivo.jpg)
+    
+}
 
 .line-1
 {
@@ -104,4 +107,11 @@ table td .fa-envelope{
 span{font-size:normal;
      font-weight:bold;
      text-align:center;
+}
+.klaw{background-image:url(http://thumbs.dreamstime.com/z/fondo-matem%C3%A1tico-del-azul-de-los-n%C3%BAmeros-17239536.jpg)}
+
+.description span{text-align:center;
+                  font-size:30px;
+                  font-weight:bold;
+    
 }

@@ -1,1 +1,131 @@
 /* Estilos CSS */
+.header{background:#f2f0f0;
+        border-top:27px solid #5fa022;
+        box-shadow:1px 1px 5px #ccc;
+        }
+.logo{padding-bottom:20px;}
+
+h3{
+    margin-bottom:25px;
+    color:#5D0400;
+}
+
+.menu ul{
+         float:right;
+         margin-top:40px;
+}
+.menu li{display:inline-block;
+         margin:0 5px;
+         }
+.menu a{
+       text-transform:uppercase;
+       font-size:20px;
+       color:#85423F;
+       padding:3px 8px;
+       border-radius:4px;
+        }
+.menu a:hover,
+.menu a:active,
+.menu li.active a{color:#fff;
+              text-decoration:none;
+              background:#e2827e;
+              border-radius:4px;
+              
+             }  
+.slider ul{padding:0;
+        list-style:none;}
+        
+.slider li{
+    width:100%;
+    overflow:hidden;
+    
+}
+.slider li img{
+       position:relative;  
+       left:50%;
+       transform:translatex(-50%);
+              }
+.follow-us .fa{
+               color:#64A921;
+               font-size:35px;
+               margin-right:10px;
+}   
+.follow-us .secundary-menu{padding:0;
+                           margin-top:25px;
+    
+}
+.follow-us .secundary-menu li{display:inline-block;
+                             margin-right:15px;
+                              }
+.follow-us .secundary-menu li a{color:#666;
+                             text-transform:uppercase;}
+                             
+.follow-us .secundary-menu li a:hover,
+.follow-us .secundary-menu li a:active,
+.follow-us .secundary-menu li.active a{color:#64A921}  
+
+.footer{background:#5FA022;
+        height:100px;
+        font-size:15px;
+        color:#fff;
+        text-align:center;
+        font-weight:bold;
+        padding-top:40px;
+        margin-top:35px;
+}
+h2{font-family:serif;}
+
+.btn-default{background:#E2827E;
+             color:#fff;
+             border:0;
+             font-weight:bold;
+            }
+.btn-default:hover,
+.btn-default:active{background:#699440;
+                    color:#fff;
+                    font-weight:bold;    
+                  }
+.dish h3{text-transform:uppercase;
+         font-size:16px;
+         margin-bottom:0;
+        }
+.dish .price{background:#58A032;
+              color:#fff;
+              margin-top:15px;
+              padding:15px;
+              display:inline-block;
+              border-radius:5px;
+              font-size:20px;
+              font-weight:bold;
+    
+             }
+             
+    hr{   background:url(../img/hor_separator.png) center no-repeat;
+      height:10px;
+      border:0px;
+    
+      }
+      
+ @media screen and (max-width:480px){
+     .best-choice .dish{
+         float:none;
+         width:100%;
+     }
+     .welcom .column{
+         float:none;
+         width:100%;
+    }
+    .welcom .chef{
+        margin:0;
+    }
+ }
+ 
+ @media screen and (min-width:769px) and (max-width:991px){
+     .follow-us .secondary-menu li{
+         margin-right:5px;
+         font-size:11px;
+     }
+ }
+ 
+
+    
