@@ -19,7 +19,7 @@ h2
 {
     text-transform:uppercase;
     border-bottom:solid 1px #2A8AC7;
-    color:#2A8AC7;
+    color:#1c18e0;
     font-size:25px;
     margin-bottom:27px;
     padding-bottom:5px;
@@ -110,8 +110,8 @@ span{font-size:normal;
 }
 .klaw{background-image:url(http://thumbs.dreamstime.com/z/fondo-matem%C3%A1tico-del-azul-de-los-n%C3%BAmeros-17239536.jpg)}
 
-.description span{text-align:center;
-                  font-size:30px;
+.description span {text-align:center;
+                  font-size:17px;
                   font-weight:bold;
     
 }
